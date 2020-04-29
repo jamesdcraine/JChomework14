@@ -57,6 +57,6 @@ request.onupgradeneeded = function (event) {
     store.clear();
   }
   
-  // listen for app coming back online
+  // listen for app back online
   window.addEventListener("online", checkDatabase);
   
